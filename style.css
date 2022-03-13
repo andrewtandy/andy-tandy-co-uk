@@ -1,0 +1,107 @@
+/* Font Families from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;700&family=Fjalla+One&display=swap');
+
+body {
+    font-family: 'Cairo';
+}
+
+h2 {
+    font-weight: 700;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    place-content: center;
+    background-color: #CAE1FF;
+    min-width: 100vw;
+}
+
+header > img {
+    max-width: 350px;
+}
+
+nav {
+    display: grid;
+    place-content: center;
+    font-weight: 300;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+}
+
+section {
+    display: grid;
+    place-content: center;
+    /* max-width: 600px; */
+}
+
+footer {
+    display: grid;
+    place-content: center;
+}
+
+.grid-span-3-col {
+    grid-column: span 3;
+}
+
+.grid-span-2-col {
+    grid-column: span 2;
+}
+
+.about {
+    background-color: #CAE1FF;
+    color: #1C0B5E;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 600px;
+    background-color: #FFF;
+    margin: 1em;
+}
+
+.card-content {
+    padding: 1rem;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 600px;
+    grid-gap: 1rem;
+    margin: 1em;
+}
+
+.project-img {
+    max-width: 180px;
+    object-fit: contain;
+}
+
+.contact {
+    background-color: #1C0B5E;
+    color: #1C0B5E;
+}
+
+.socials {
+    background: #251101;
+    color: #FF7774;
+}
+
+.about-img {
+    width: 300px;
+    height: 300px;
+    object-fit: none;
+    object-position: 30% 45%;
+}
+
