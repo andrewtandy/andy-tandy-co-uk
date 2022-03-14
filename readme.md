@@ -1,6 +1,11 @@
 # Andy Tandy co uk
 ## Portfolio Site
 
+###### Last Updated : 14.03.21
+
+* SVGs customised for colour scheme
+* Base HTML structure created
+
 ###### Last Updated : 12.03.21
 
 * Ran colour palette through https://accessible-colors.com and secured AAA rating on all combinations

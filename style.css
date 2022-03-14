@@ -94,8 +94,11 @@ footer {
 }
 
 .socials {
+    display: flex;
     background: #251101;
     color: #FF7774;
+    justify-content: center;
+    /* padding: 1rem; */
 }
 
 .about-img {
@@ -105,3 +108,8 @@ footer {
     object-position: 30% 45%;
 }
 
+.icons {
+    height: 50px;
+    width: 50px;
+    margin: 1rem;
+}
